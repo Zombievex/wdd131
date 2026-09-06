@@ -37,6 +37,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .main_grid {
@@ -49,9 +50,23 @@ main {
 .card {
     display:block;
     max-width: 500 px;
+    border: 1px solid var(--first-color);
 }
 
 .card h2{
+    margin-top: 0;
     text-align: center;
     background-color: var(--second-color);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: var(--first-color);
+    min-height: 50px;
+    font-size: 20px;
 }
