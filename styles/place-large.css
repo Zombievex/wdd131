@@ -34,11 +34,7 @@
         padding: 6px;
     }
 
-    .weather h2 {
-        grid-column: 1/2;
-    }
-    .datagrid img {
-        grid-column: 2/3;
-        width: 50%;
+    .weather h2::after {
+        display: inline;
     }
 }
