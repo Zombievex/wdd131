@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="WDD 131 – Dynamic Web Fundamentals, Colby Orr, this is my country or whatever, place I guess?">
+    <meta name="author" content="Colby Orr">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+    <title>WDD 131 – Dynamic Web Fundamentals – Colby Orr</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Idaho
+        </h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/potato-field-large.webp" media="(min-width: 800px)">
+                <img src="images/potato-field-small.webp" alt="Potato Field" width="500" height="250">
+            </picture>
+        </div>
+
+        <section>
+            <div class="data">
+                <div class="datagrid">
+                    <h2>
+                        Data
+                    </h2>
+
+                    <strong>Area:</strong>
+                    <span>83,569 mi²</span>
+
+                    <strong>Population:</strong>
+                    <span>7 1/2</span>
+
+                    <strong>Capital:</strong>
+                    <span>Boise</span>
+
+                    <strong>Currency:</strong>
+                    <span>USD</span>
+
+                    <strong>Time Zone:</strong>
+                    <span>UTC-6</span>
+
+                    <strong>Crop:</strong>
+                    <span>Potato</span>
+                </div>
+            </div>
+            
+            <div class="weather">
+                <div class="datagrid">
+                    <h2>
+                        Weather
+                    </h2>
+
+                    <img src="images/weather-icon.svg" alt="Weather icon">
+
+                    <strong>Temperature:</strong>
+                    <span id="temp"></span>
+
+                    <strong>Conditions:</strong>
+                    <span id="condition"></span>
+
+                    <strong>Wind:</strong>
+                    <span id="wind"></span>
+
+                    <strong>Wind Chill:</strong>
+                    <span id="chill"></span>
+
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="currentyear"></span> &#10070; Colby Orr &#10070; Idaho, United States
+        </p>
+        <p>
+            lastModified <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>

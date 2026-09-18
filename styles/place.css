@@ -1,0 +1,89 @@
+:root {
+    --first-color: #ffffff;
+    --second-color: #e09380;
+    --third-color: #10da1d;
+    --fourth-color: #e8fdfa;
+    --heading-font: "Times New Roman", "georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+
+    background-color: var(--fourth-color);
+}
+
+
+header {
+    Display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 64px;
+    padding-right: 64px;
+
+
+    background-color: var(--fourth-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    padding: 320 px;
+    background-color: var(--third-color);
+}
+
+
+.hero img{
+    width: 100%;
+    height: auto;
+}
+
+main {
+    background-color: var(--second-color);
+    padding-bottom: 8px;
+}
+
+.datagrid h2 {
+    font-size: 60px;
+    grid-column: 1/3;
+    margin: 12px;
+}
+
+section .datagrid {
+    display: grid;
+    grid-template-columns: auto auto;
+
+    background-color: var(--third-color);
+    margin: 32px;
+
+    font-size: 32px;
+    padding-bottom: 8px;
+}
+
+.datagrid img {
+    justify-self: center;
+
+    grid-column: 1/3;
+    width: 25%;
+    height: auto;
+}
+
+.datagrid strong {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.datagrid span {
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: var(--third-color);
+    min-height: 50px;
+    font-size: 20px;
+}

@@ -1,0 +1,44 @@
+@media (min-width: 780px) {
+    .hero img{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    
+    h2 {
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+        background-color: var(--third-color);
+    }
+
+    section .datagrid {
+        background-color: rgba(255, 255, 255, 0.4);
+        padding: 4px;
+    }
+    .data {
+        position: absolute;
+
+        top: 240px;
+        left: 240px;
+
+        padding: 6px;
+    }
+
+    .weather {
+        position: absolute;
+
+        bottom: 40px;
+        right: 240px;
+
+        padding: 6px;
+    }
+
+    .weather h2 {
+        grid-column: 1/2;
+    }
+    .datagrid img {
+        grid-column: 2/3;
+        width: 50%;
+    }
+}
