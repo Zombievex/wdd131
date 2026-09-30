@@ -1,0 +1,26 @@
+:root {
+    --background-color: #160F1F;
+    --card-color: #2A1938;
+    --primary-color: #8B5CF6;
+    --secondary-color: #C4B5FD;
+    --text-color: #F5F3F7;
+    --muted-text-color: #C9C2D0;
+
+    --heading-font: "Cinzel", serif;
+    --text-font: "Lato", sans-serif;
+}
+
+
+header {
+    background-color: var(--primary-color);
+    padding: 0px;
+}
+
+h1 {
+    font-family: var(--heading-font);
+}
+
+body {
+    font-family: var(--text-font);
+    background-color: var(--secondary-color);
+}
