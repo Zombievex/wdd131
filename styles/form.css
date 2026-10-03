@@ -5,14 +5,8 @@
 
     --heading-text-color: #27272A;
     --text-color: #3F3F46;
-    --muted-text-color: #71717A;
 
     --border-color: #D4D4D8;
-
-    --accent-color: #2563EB;
-    --accent-hover: #1D4ED8;
-
-    --rating-color: #EAB308;
 
 
     background-color: var(--background-color);
