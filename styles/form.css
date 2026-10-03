@@ -1,0 +1,76 @@
+:root {
+    --background-color: #F4F4F5;
+    --form-color: #dedede;
+    --heading-color: #d8f2ff;
+
+    --heading-text-color: #27272A;
+    --text-color: #3F3F46;
+    --muted-text-color: #71717A;
+
+    --border-color: #D4D4D8;
+
+    --accent-color: #2563EB;
+    --accent-hover: #1D4ED8;
+
+    --rating-color: #EAB308;
+
+
+    background-color: var(--background-color);
+}
+
+header, footer {
+    Display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 64px;
+    padding-right: 64px;
+
+
+    background-color: var(--heading-color);
+
+    color: var(--heading-text-color)
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    background-color: var(--third-color);
+}
+
+form {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--form-color);
+    color: var(--text-color);
+    font-size: 24px;;
+
+    padding: 8px;
+}
+
+
+
+input[type="radio"] {
+    transform: scale(1.5);
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+}
+
+input[type="date"] {
+    font-size: 1rem;
+    padding: 0px;
+    width: 100%;
+}
+
+select {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%;
+}
