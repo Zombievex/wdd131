@@ -1,0 +1,22 @@
+.rune-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.rune-grid > div {
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+}
+
+.rune-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rune-name img {
+    width: 25%;
+    height: auto;
+}

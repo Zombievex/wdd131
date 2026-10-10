@@ -1,0 +1,129 @@
+:root {
+    --background-color: #160F1F;
+    --card-color: #2A1938;
+    --primary-color: #8B5CF6;
+    --secondary-color: #C4B5FD;
+    --text-color: #F5F3F7;
+    --muted-text-color: #8205ff;
+
+    --heading-font: "Cinzel", serif;
+    --text-font: "Lato", sans-serif;
+
+    background-color: var(--background-color);
+    color: var(--text-color)
+
+}
+
+
+header, footer {
+    Display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 64px;
+    padding-right: 64px;
+    font-family: var(--heading-font);
+
+    background-color: var(--primary-color);
+
+    color: var(--heading-text-color)
+}
+
+header nav a{
+    display: flex;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+
+ 	position: absolute;
+    top: 10px;
+    right: 20px;
+
+}
+
+#menu::before {
+	content: "☰";
+    font-size: 50px;
+}
+
+.navigation {
+    display: none;
+    list-style: none;
+    padding: 0;
+}
+
+
+.navigation.open {
+    display: block;
+}
+
+.navigation.open li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+    font-size: 30px;
+    background-color: rgba(55, 55, 55, 0.2)
+}
+
+.navigation li a:hover {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #333;
+}
+
+body {
+    font-family: var(--text-font);
+    margin: 0px;
+    padding: 0%;
+    font-size: 20px;
+}
+
+
+.dark-section {
+    background-color: var(--card-color);
+    color: var(--text-color);
+}
+
+.light-section {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+}
+
+.light-section,
+.dark-section {
+    padding: 32px 5%;
+}
+
+
+
+.notice {
+    background-color: var(--secondary-color);
+    color: var(--muted-text-color);
+    padding: 32px;
+    text-align: center;
+    margin: 0px;
+}
+
+
+.rune {
+    fill: var(--primary-color);
+}
+
+.lattice {
+    Display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}

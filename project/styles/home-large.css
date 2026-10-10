@@ -1,0 +1,22 @@
+@media (min-width: 780px) {
+    .lattice {
+    Display: grid;
+    width: 90%;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    margin: 0 auto;
+    }
+
+    #menu::before {
+        content: "☰";
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 56px;
+    }
+
+    body {
+        font-size: 40px;
+    }
+}
